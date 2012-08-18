@@ -11,6 +11,7 @@
     *.xcworkspace
     !default.xcworkspace
     xcuserdata
+    *.xcuserdata
     profile
     *.moved-aside
     .DS_Store
