@@ -1,0 +1,802 @@
+TPSMTabBarControl
+v7
+r0
+t316999110.659416
+cCheck dependencies
+cProcessInfoPlistFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist Info.plist
+cCpResource build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/TabControlRep.png TabControlRep.png
+cCopyStringsFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlInspector.xib
+cStripNIB /Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlLibrary.nib
+cCopyPlistFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription PSMTabBarControl.classdescription
+cProcessPCH /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch.gch PSMTabBarControl_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal x86_64
+cGenerateDSYMFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+cPBXCp build/Debug/PSMTabBarControl.ibplugin/Contents/Frameworks/PSMTabBarControl.framework build/Debug/PSMTabBarControl.framework
+cTouch /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/IBDocument.h
+c000000004CAA648200000000000007C5
+t1286235266
+s1989
+i<Cocoa/Cocoa.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/IBGeometry.h
+c000000004CAA64820000000000000336
+t1286235266
+s822
+i<Cocoa/Cocoa.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/IBInspector.h
+c000000004CAA64820000000000000524
+t1286235266
+s1316
+i<Cocoa/Cocoa.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/IBObjectIntegration.h
+c000000004CAA64820000000000000F85
+t1286235266
+s3973
+i<Cocoa/Cocoa.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/IBPlugin.h
+c000000004CAA6482000000000000071F
+t1286235266
+s1823
+i<Cocoa/Cocoa.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/IBViewIntegration.h
+c000000004CAA64820000000000000653
+t1286235266
+s1619
+i<Cocoa/Cocoa.h>
+i<InterfaceBuilderKit/IBObjectIntegration.h>
+i<InterfaceBuilderKit/IBGeometry.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers/InterfaceBuilderKit.h
+c000000004CAA64820000000000000188
+t1286235266
+s392
+i<InterfaceBuilderKit/IBObjectIntegration.h>
+i<InterfaceBuilderKit/IBViewIntegration.h>
+i<InterfaceBuilderKit/IBInspector.h>
+i<InterfaceBuilderKit/IBGeometry.h>
+i<InterfaceBuilderKit/IBDocument.h>
+i<InterfaceBuilderKit/IBPlugin.h>
+
+N/Developer/Library/Frameworks/InterfaceBuilderKit.framework/InterfaceBuilderKit
+c000000004CAA64BC0000000000AB1AD0
+t1286235324
+s11213520
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/InfoPlist.strings
+c000000004C2631C800000000000000B8
+t1277571528
+s184
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlInspector.xib
+c000000004C2631C800000000000163BC
+t1277571528
+s91068
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlLibrary.nib
+c000000004C2631C80000000000000088
+t1277571528
+s136
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl.classdescription
+c000000004C2631C800000000000000F9
+t1277571528
+s249
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl.h
+c000000004C2631C80000000000001FF3
+t1277571528
+s8179
+i<Cocoa/Cocoa.h>
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.h
+c000000004C2631C80000000000000355
+t1277571528
+s853
+i<InterfaceBuilderKit/InterfaceBuilderKit.h>
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m
+c000000004C2631C80000000000000F43
+t1277571528
+s3907
+i"PSMTabBarControlInspector.h"
+i"PSMTabBarControl.h"
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m
+c000000004C2631C80000000000000349
+t1277571528
+s841
+i<InterfaceBuilderKit/InterfaceBuilderKit.h>
+i"PSMTabBarControl.h"
+i"PSMTabBarControlInspector.h"
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.h
+c000000004C2631C800000000000000F9
+t1277571528
+s249
+i"PSMTabBarControl.h"
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m
+c000000004C2631C80000000000000257
+t1277571528
+s599
+i"PSMTabBarControlPlugin.h"
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl_Prefix.pch
+c000000004C2631C8000000000000006B
+t1277571528
+s107
+i<Cocoa/Cocoa.h>
+i<InterfaceBuilderKit/InterfaceBuilderKit.h>
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/TabControlRep.png
+c000000004C2631C80000000000000769
+t1277571528
+s1897
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.framework
+c000000004D329A7600000000000000AA
+t1295161974
+s170
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.framework/PSMTabBarControl
+c000000004D329A76000000000005DE58
+t1295161974
+s384600
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin
+t1295161978
+s102
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM
+t1295161978
+s102
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Frameworks/PSMTabBarControl.framework
+t1295161978
+s170
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist
+t1295161974
+s823
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+t1295161978
+s19512
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings
+t1295161974
+s184
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription
+t1295161974
+s249
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlInspector.nib
+t1295161974
+s15083
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlLibrary.nib
+t1295161974
+s5605
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/TabControlRep.png
+t1295161974
+s1897
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl
+t1295161003
+s20220
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl.LinkFileList
+c000000004D3296A50000000000000203
+t1295160997
+s515
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlInspector.o
+t1295161002
+s25928
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlIntegration.o
+t1295161002
+s24720
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlPlugin.o
+t1295161002
+s13800
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControl
+t2
+s0
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControl.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControlInspector.o
+t2
+s0
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControlIntegration.o
+t2
+s0
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControlPlugin.o
+t2
+s0
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl
+t1295161003
+s19512
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl.LinkFileList
+c000000004D329A760000000000000209
+t1295161974
+s521
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o
+t1295161977
+s30588
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o
+t1295161978
+s26924
+
+N/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o
+t1295161977
+s16084
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/InfoPlist.strings
+c000000004C2631C800000000000000B8
+t1277571528
+s184
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlInspector.xib
+c000000004C2631C800000000000163BC
+t1277571528
+s91068
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlLibrary.nib
+c000000004C2631C80000000000000088
+t1277571528
+s136
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControl.classdescription
+c000000004C2631C800000000000000F9
+t1277571528
+s249
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControl.h
+c000000004C2631C80000000000001FF3
+t1277571528
+s8179
+i<Cocoa/Cocoa.h>
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.h
+c000000004C2631C80000000000000355
+t1277571528
+s853
+i<InterfaceBuilderKit/InterfaceBuilderKit.h>
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m
+c000000004C2631C80000000000000F43
+t1277571528
+s3907
+i"PSMTabBarControlInspector.h"
+i"PSMTabBarControl.h"
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m
+c000000004C2631C80000000000000349
+t1277571528
+s841
+i<InterfaceBuilderKit/InterfaceBuilderKit.h>
+i"PSMTabBarControl.h"
+i"PSMTabBarControlInspector.h"
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.h
+c000000004C2631C800000000000000F9
+t1277571528
+s249
+i"PSMTabBarControl.h"
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m
+c000000004C2631C80000000000000257
+t1277571528
+s599
+i"PSMTabBarControlPlugin.h"
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControl_Prefix.pch
+c000000004C2631C8000000000000006B
+t1277571528
+s107
+i<Cocoa/Cocoa.h>
+i<InterfaceBuilderKit/InterfaceBuilderKit.h>
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/TabControlRep.png
+c000000004C2631C80000000000000769
+t1277571528
+s1897
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.framework
+c000000004D34CE4100000000000000AA
+t1295306305
+s170
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.framework/PSMTabBarControl
+c000000004D34CE410000000000065948
+t1295306305
+s416072
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin
+t1295306310
+s102
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM
+t1295306310
+s102
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Frameworks/PSMTabBarControl.framework
+t1295306310
+s170
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist
+t1295306305
+s823
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+t1295306310
+s19400
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings
+t1295306305
+s184
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription
+t1295306306
+s249
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlInspector.nib
+t1295306306
+s15083
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlLibrary.nib
+t1295306306
+s5605
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/TabControlRep.png
+t1295306305
+s1897
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl.LinkFileList
+c000000004D34CE4100000000000001D0
+t1295306305
+s464
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o
+t1295306310
+s30548
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o
+t1295306310
+s26884
+
+N/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o
+t1295306310
+s16052
+
+N/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch.gch
+t1295161977
+s54372336
+
+N/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch.gch
+t1295306310
+s54372336
+
+N/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch.gch
+t1295161002
+s57026576
+
+N/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-dfnawofsfgmeseewzdqcapcwenhx/PSMTabBarControl_Prefix.pch.gch
+t2
+s0
+
+NInfo.plist
+c000000004C2631C80000000000000338
+t1277571528
+s824
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316999105#316999105#0(0"0(0#1#0"8625831520#0"0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlInspector.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316853802.319358
+e316853802.600703
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlInspector.o
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m316853802#316853802#0(0"0(0#0#93"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m8638841216#1469"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/i386 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlInspector.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlIntegration.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316853802.556563
+e316853802.794981
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlIntegration.o
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m316853802#316853802#0(0"0(0#0#95"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m8645211296#1473"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/i386 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlIntegration.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlPlugin.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316853802.349777
+e316853802.556448
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlPlugin.o
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m316853802#316853802#0(0"0(0#0#90"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m8648592736#1463"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/i386 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControlPlugin.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControlInspector.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControlIntegration.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControlPlugin.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316854777.716888
+e316854777.958785
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m316854777#316854777#0(0"0(0#0#93"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m8645959456#1475"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlInspector.m -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316999110.196448
+e316999110.419302
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o
+x/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m316999110#316999110#0(0"0(0#0#74"/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m8639099040#1323"    cd /Users/Combat/Projects/PSMTabBarControl/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/include -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch -c /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlInspector.m -o /Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlInspector.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316854777.945515
+e316854778.122988
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m316854777#316854778#0(0"0(0#0#95"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m8649322784#1479"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlIntegration.m -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316999110.388574
+e316999110.562557
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o
+x/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m316999110#316999110#0(0"0(0#0#76"/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m8637438752#1327"    cd /Users/Combat/Projects/PSMTabBarControl/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/include -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch -c /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlIntegration.m -o /Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlIntegration.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316854777.717917
+e316854777.945405
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m316854777#316854777#0(0"0(0#0#90"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m8645272704#1469"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControlPlugin.m -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o0#
+
+CCompileC build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316999110.197458
+e316999110.388463
+r1
+xCompileC
+xbuild/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o
+x/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m316999110#316999110#0(0"0(0#0#71"/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m8638877248#1317"    cd /Users/Combat/Projects/PSMTabBarControl/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/include -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -include /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch -c /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControlPlugin.m -o /Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControlPlugin.o0#
+
+CCompileXIB /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlInspector.xib
+s316854774.259398
+e316854774.623699
+r1
+xCompileXIB
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlInspector.xib
+lSLF07#2@54"CompileXIB English.lproj/PSMTabBarControlInspector.xib316854774#316854774#0(0"0(0#0#109"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlInspector.xib8649547840#479"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlInspector.nib /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlInspector.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCompileXIB /Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlInspector.xib
+s316999105.798769
+e316999106.530169
+r1
+xCompileXIB
+x/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlInspector.xib
+lSLF07#2@54"CompileXIB English.lproj/PSMTabBarControlInspector.xib316999105#316999106#0(0"0(0#0#90"/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlInspector.xib8644288832#422"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlInspector.nib /Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlInspector.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyPlistFile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription PSMTabBarControl.classdescription
+s316854774.443408
+e316854774.466210
+r1
+xCopyPlistFile
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription
+xPSMTabBarControl.classdescription
+lSLF07#2@38"Copy PSMTabBarControl.classdescription316854774#316854774#0(0"0(0#0#99"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl.classdescription8647349728#330"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist PSMTabBarControl.classdescription --outdir /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources0#
+
+CCopyPlistFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription PSMTabBarControl.classdescription
+s316999106.398016
+e316999106.422417
+r1
+xCopyPlistFile
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControl.classdescription
+xPSMTabBarControl.classdescription
+lSLF07#2@38"Copy PSMTabBarControl.classdescription316999106#316999106#0(0"0(0#0#80"/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControl.classdescription8640133312#292"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist PSMTabBarControl.classdescription --outdir /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources0#
+
+CCopyStringsFile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s316854774.254673
+e316854774.285265
+r1
+xCopyStringsFile
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings316854774#316854774#0(0"0(0#0#97"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/InfoPlist.strings8649849312#434"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj0#
+
+CCopyStringsFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s316999105.665938
+e316999105.871086
+r1
+xCopyStringsFile
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings316999105#316999105#0(0"0(0#0#78"/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/InfoPlist.strings8637885504#396"    cd /Users/Combat/Projects/PSMTabBarControl/Source    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/TabControlRep.png TabControlRep.png
+s316999105.665178
+e316999105.798675
+r1
+xCpResource
+xbuild/Debug/PSMTabBarControl.ibplugin/Contents/Resources/TabControlRep.png
+xTabControlRep.png
+lSLF07#2@22"Copy TabControlRep.png316999105#316999105#0(0"0(0#0#64"/Users/Combat/Projects/PSMTabBarControl/Source/TabControlRep.png8638329408#385"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Combat/Projects/PSMTabBarControl/Source/TabControlRep.png /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources0#
+
+CCreateUniversalBinary /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal "i386 x86_64"
+s316853803.368143
+e316853803.414974
+r1
+xCreateUniversalBinary
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+xnormal
+xi386 x86_64
+lSLF07#2@112"CreateUniversalBinary build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal "i386 x86_64"316853803#316853803#0(0"0(0#0#77"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/i386 x86_648631450816#567"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    /usr/bin/lipo -create /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl -output /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl0#
+
+CCreateUniversalBinary /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal "x86_64 i386 ppc"
+r0
+
+CCreateUniversalBinary /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal "x86_64 i386"
+r0
+
+CGenerateDSYMFile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+s316854778.165357
+e316854778.179582
+r1
+xGenerateDSYMFile
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+lSLF07#2@129"GenerateDSYMFile build/Debug/PSMTabBarControl.ibplugin.dSYM build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl316854778#316854778#0(0"0(0#0#135"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl8646543296#353"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    /Developer/usr/bin/dsymutil /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM0#
+
+CGenerateDSYMFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+s316999110.608102
+e316999110.621398
+r1
+xGenerateDSYMFile
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+lSLF07#2@129"GenerateDSYMFile build/Debug/PSMTabBarControl.ibplugin.dSYM build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl316999110#316999110#0(0"0(0#0#116"/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl8642621536#296"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /Developer/usr/bin/dsymutil /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl -o /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin.dSYM0#
+
+CLd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal x86_64
+s316854778.123082
+e316854778.165249
+r1
+xLd
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+xnormal
+xx86_64
+lSLF07#2@140"Link /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl316854778#316854778#0(0"0(0#0#0"8647692800#826"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -filelist /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl.LinkFileList -mmacosx-version-min=10.6 -framework PSMTabBarControl -framework Cocoa -framework InterfaceBuilderKit -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl0#
+
+CLd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl normal i386
+s316853802.795093
+e316853803.368025
+r1
+xLd
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl
+xnormal
+xi386
+old: warning: in /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.framework/PSMTabBarControl, file was built for unsupported file format which is not the architecture being linked (i386)
+lSLF07#2@165"Link /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl316853802#316853803#0(232"ld: warning: in /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.framework/PSMTabBarControl, file was built for unsupported file format which is not the architecture being linked (i386)1(22@218"In /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.framework/PSMTabBarControl, file was built for unsupported file format which is not the architecture being linked (i386)316853803#0#232#0(6@0"316853803#0#0#0#0#0"0(0#0#0"8643613120#847"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -filelist /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl.LinkFileList -mmacosx-version-min=10.6 -framework PSMTabBarControl -framework Cocoa -framework InterfaceBuilderKit -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/i386/PSMTabBarControl0#
+
+CLd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/ppc/PSMTabBarControl normal ppc
+r0
+
+CLd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl normal x86_64
+s316853803.171323
+e316853803.262594
+r1
+xLd
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl
+xnormal
+xx86_64
+lSLF07#2@167"Link /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl316853803#316853803#0(0"0(0#0#0"8636658624#853"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -filelist /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl.LinkFileList -mmacosx-version-min=10.6 -framework PSMTabBarControl -framework Cocoa -framework InterfaceBuilderKit -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl0#
+
+CLd /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl normal x86_64
+s316999110.562653
+e316999110.607988
+r1
+xLd
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl
+xnormal
+xx86_64
+lSLF07#2@121"Link /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl316999110#316999110#0(0"0(0#0#0"8631052032#731"    cd /Users/Combat/Projects/PSMTabBarControl/Source    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug -F/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug -F/Developer/Library/Frameworks -filelist /Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/Objects-normal/x86_64/PSMTabBarControl.LinkFileList -mmacosx-version-min=10.6 -framework PSMTabBarControl -framework Cocoa -framework InterfaceBuilderKit -o /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/MacOS/PSMTabBarControl0#
+
+CPBXCp build/Debug/PSMTabBarControl.ibplugin/Contents/Frameworks/PSMTabBarControl.framework build/Debug/PSMTabBarControl.framework
+s316999110.621504
+e316999110.653985
+r1
+xPBXCp
+xbuild/Debug/PSMTabBarControl.ibplugin/Contents/Frameworks/PSMTabBarControl.framework
+xbuild/Debug/PSMTabBarControl.framework
+lSLF07#2@43"Copy build/Debug/PSMTabBarControl.framework316999110#316999110#0(0"0(0#0#85"/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.framework8642128384#407"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.framework /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist Info.plist
+s316854774.228202
+e316854774.253860
+r1
+xProcessInfoPlistFile
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist316854774#316854774#0(0"0(0#0#76"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/Info.plist8643632928#278"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist0#
+
+CProcessInfoPlistFile /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist Info.plist
+s316999105.661881
+e316999105.665098
+r1
+xProcessInfoPlistFile
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist316999105#316999105#0(0"0(0#0#57"/Users/Combat/Projects/PSMTabBarControl/Source/Info.plist8638603424#240"    cd /Users/Combat/Projects/PSMTabBarControl/Source    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Info.plist0#
+
+CProcessPCH /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch.gch PSMTabBarControl_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316854774.623817
+e316854777.716740
+r1
+xProcessPCH
+x/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch.gch
+xPSMTabBarControl_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile PSMTabBarControl_Prefix.pch316854774#316854777#0(0"0(0#0#93"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl_Prefix.pch8646450944#1303"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl_Prefix.pch -o /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-apjaxkovowojtfbqtwjrarlwmqbz/PSMTabBarControl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch.gch PSMTabBarControl_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s316999106.530310
+e316999110.196308
+r1
+xProcessPCH
+x/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch.gch
+xPSMTabBarControl_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile PSMTabBarControl_Prefix.pch316999106#316999110#0(0"0(0#0#74"/Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControl_Prefix.pch8639721824#1170"    cd /Users/Combat/Projects/PSMTabBarControl/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/include -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/x86_64 -I/Users/Combat/Projects/PSMTabBarControl/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -c /Users/Combat/Projects/PSMTabBarControl/Source/PSMTabBarControl_Prefix.pch -o /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-bkajatjtajozckbxkmagvznkiqtl/PSMTabBarControl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch.gch PSMTabBarControl_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316853798.018162
+e316853802.319189
+r1
+xProcessPCH
+x/var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch.gch
+xPSMTabBarControl_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile PSMTabBarControl_Prefix.pch316853798#316853802#0(0"0(0#0#93"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl_Prefix.pch8643614976#1299"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/PSMTabBarControl.hmap -F/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug -F/Developer/Library/Frameworks -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/include -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources/i386 -I/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/PSMTabBarControl.build/Debug/PSMTabBarControl.build/DerivedSources -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/PSMTabBarControl_Prefix.pch -o /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-cxlzdheourybbfbmxocjgltaohxh/PSMTabBarControl_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/fz/fz2OQN-gHz0BGm-w+jBDhk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PSMTabBarControl_Prefix-dfnawofsfgmeseewzdqcapcwenhx/PSMTabBarControl_Prefix.pch.gch PSMTabBarControl_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+r0
+
+CStripNIB /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlLibrary.nib
+s316854774.285362
+e316854774.443277
+r1
+xStripNIB
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlLibrary.nib
+lSLF07#2@50"StripNIB English.lproj/PSMTabBarControlLibrary.nib316854774#316854774#0(0"0(0#0#107"/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlLibrary.nib8649020192#406"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    /Developer/usr/bin/ibtool --strip /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlLibrary.nib --output-format human-readable-text /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/English.lproj/PSMTabBarControlLibrary.nib0#
+
+CStripNIB /Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlLibrary.nib
+s316999105.871210
+e316999106.397813
+r1
+xStripNIB
+x/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlLibrary.nib
+lSLF07#2@50"StripNIB English.lproj/PSMTabBarControlLibrary.nib316999105#316999106#0(0"0(0#0#88"/Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlLibrary.nib8641400608#349"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /Developer/usr/bin/ibtool --strip /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin/Contents/Resources/PSMTabBarControlLibrary.nib --output-format human-readable-text /Users/Combat/Projects/PSMTabBarControl/Source/English.lproj/PSMTabBarControlLibrary.nib0#
+
+CTouch /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin
+s316854778.194184
+e316854778.197914
+r1
+xTouch
+x/Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin
+lSLF07#2@109"Touch /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin316854778#316854778#0(0"0(0#0#0"8645970560#199"    cd /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source    /usr/bin/touch -c /Users/Combat/Desktop/robertjpayne-psmtabbarcontrol-master/Source/build/Debug/PSMTabBarControl.ibplugin0#
+
+CTouch /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin
+s316999110.654145
+e316999110.659356
+r1
+xTouch
+x/Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin
+lSLF07#2@90"Touch /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin316999110#316999110#0(0"0(0#0#0"8641831872#161"    cd /Users/Combat/Projects/PSMTabBarControl/Source    /usr/bin/touch -c /Users/Combat/Projects/PSMTabBarControl/Source/build/Debug/PSMTabBarControl.ibplugin0#
+
