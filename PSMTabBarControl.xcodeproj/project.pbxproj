@@ -77,21 +77,15 @@
 		8B3988A21184F668004462EE /* AquaTabsSeparatorDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D21184F19D004462EE /* AquaTabsSeparatorDown.png */; };
 		8B3988A31184F668004462EE /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D31184F19D004462EE /* Folder.png */; };
 		8B3988A41184F668004462EE /* Globe.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D41184F19D004462EE /* Globe.png */; };
-		8B3988A51184F668004462EE /* largeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D51184F19D004462EE /* largeImage.png */; };
-		8B3988A61184F668004462EE /* mater_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D61184F19D004462EE /* mater_large.jpg */; };
-		8B3988A71184F668004462EE /* mcqueen_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D71184F19D004462EE /* mcqueen_large.jpg */; };
 		8B3988A81184F668004462EE /* overflowImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D81184F19D004462EE /* overflowImage.png */; };
 		8B3988A91184F668004462EE /* overflowImagePressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987D91184F19D004462EE /* overflowImagePressed.png */; };
 		8B3988AA1184F668004462EE /* pi.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987DA1184F19D004462EE /* pi.png */; };
-		8B3988AB1184F668004462EE /* sally_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987DB1184F19D004462EE /* sally_large.jpg */; };
 		8B3988AC1184F668004462EE /* TabClose_Dirty_Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987DC1184F19D004462EE /* TabClose_Dirty_Pressed.png */; };
 		8B3988AD1184F668004462EE /* TabClose_Dirty_Rollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987DD1184F19D004462EE /* TabClose_Dirty_Rollover.png */; };
 		8B3988AE1184F668004462EE /* TabClose_Dirty.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987DE1184F19D004462EE /* TabClose_Dirty.png */; };
 		8B3988AF1184F668004462EE /* TabClose_Front_Pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987DF1184F19D004462EE /* TabClose_Front_Pressed.png */; };
 		8B3988B01184F668004462EE /* TabClose_Front_Rollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E01184F19D004462EE /* TabClose_Front_Rollover.png */; };
 		8B3988B11184F668004462EE /* TabClose_Front.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E11184F19D004462EE /* TabClose_Front.png */; };
-		8B3988B21184F668004462EE /* TabControlRep.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E21184F19D004462EE /* TabControlRep.png */; };
-		8B3988B31184F668004462EE /* TabIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E31184F19D004462EE /* TabIcon.png */; };
 		8B3988B41184F668004462EE /* TabNewMetal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E41184F19D004462EE /* TabNewMetal.png */; };
 		8B3988B51184F668004462EE /* TabNewMetalPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E51184F19D004462EE /* TabNewMetalPressed.png */; };
 		8B3988B61184F668004462EE /* TabNewMetalRollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E61184F19D004462EE /* TabNewMetalRollover.png */; };
@@ -136,21 +130,15 @@
 		8B3987D21184F19D004462EE /* AquaTabsSeparatorDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AquaTabsSeparatorDown.png; sourceTree = "<group>"; };
 		8B3987D31184F19D004462EE /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
 		8B3987D41184F19D004462EE /* Globe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Globe.png; sourceTree = "<group>"; };
-		8B3987D51184F19D004462EE /* largeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeImage.png; sourceTree = "<group>"; };
-		8B3987D61184F19D004462EE /* mater_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mater_large.jpg; sourceTree = "<group>"; };
-		8B3987D71184F19D004462EE /* mcqueen_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mcqueen_large.jpg; sourceTree = "<group>"; };
 		8B3987D81184F19D004462EE /* overflowImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overflowImage.png; sourceTree = "<group>"; };
 		8B3987D91184F19D004462EE /* overflowImagePressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overflowImagePressed.png; sourceTree = "<group>"; };
 		8B3987DA1184F19D004462EE /* pi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pi.png; sourceTree = "<group>"; };
-		8B3987DB1184F19D004462EE /* sally_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sally_large.jpg; sourceTree = "<group>"; };
 		8B3987DC1184F19D004462EE /* TabClose_Dirty_Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabClose_Dirty_Pressed.png; sourceTree = "<group>"; };
 		8B3987DD1184F19D004462EE /* TabClose_Dirty_Rollover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabClose_Dirty_Rollover.png; sourceTree = "<group>"; };
 		8B3987DE1184F19D004462EE /* TabClose_Dirty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabClose_Dirty.png; sourceTree = "<group>"; };
 		8B3987DF1184F19D004462EE /* TabClose_Front_Pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabClose_Front_Pressed.png; sourceTree = "<group>"; };
 		8B3987E01184F19D004462EE /* TabClose_Front_Rollover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabClose_Front_Rollover.png; sourceTree = "<group>"; };
 		8B3987E11184F19D004462EE /* TabClose_Front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabClose_Front.png; sourceTree = "<group>"; };
-		8B3987E21184F19D004462EE /* TabControlRep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabControlRep.png; sourceTree = "<group>"; };
-		8B3987E31184F19D004462EE /* TabIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabIcon.png; sourceTree = "<group>"; };
 		8B3987E41184F19D004462EE /* TabNewMetal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabNewMetal.png; sourceTree = "<group>"; };
 		8B3987E51184F19D004462EE /* TabNewMetalPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabNewMetalPressed.png; sourceTree = "<group>"; };
 		8B3987E61184F19D004462EE /* TabNewMetalRollover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TabNewMetalRollover.png; sourceTree = "<group>"; };
@@ -238,21 +226,15 @@
 				8B3987D21184F19D004462EE /* AquaTabsSeparatorDown.png */,
 				8B3987D31184F19D004462EE /* Folder.png */,
 				8B3987D41184F19D004462EE /* Globe.png */,
-				8B3987D51184F19D004462EE /* largeImage.png */,
-				8B3987D61184F19D004462EE /* mater_large.jpg */,
-				8B3987D71184F19D004462EE /* mcqueen_large.jpg */,
 				8B3987D81184F19D004462EE /* overflowImage.png */,
 				8B3987D91184F19D004462EE /* overflowImagePressed.png */,
 				8B3987DA1184F19D004462EE /* pi.png */,
-				8B3987DB1184F19D004462EE /* sally_large.jpg */,
 				8B3987DC1184F19D004462EE /* TabClose_Dirty_Pressed.png */,
 				8B3987DD1184F19D004462EE /* TabClose_Dirty_Rollover.png */,
 				8B3987DE1184F19D004462EE /* TabClose_Dirty.png */,
 				8B3987DF1184F19D004462EE /* TabClose_Front_Pressed.png */,
 				8B3987E01184F19D004462EE /* TabClose_Front_Rollover.png */,
 				8B3987E11184F19D004462EE /* TabClose_Front.png */,
-				8B3987E21184F19D004462EE /* TabControlRep.png */,
-				8B3987E31184F19D004462EE /* TabIcon.png */,
 				8B3987E41184F19D004462EE /* TabNewMetal.png */,
 				8B3987E51184F19D004462EE /* TabNewMetalPressed.png */,
 				8B3987E61184F19D004462EE /* TabNewMetalRollover.png */,
@@ -465,21 +447,15 @@
 				8B3988A21184F668004462EE /* AquaTabsSeparatorDown.png in Resources */,
 				8B3988A31184F668004462EE /* Folder.png in Resources */,
 				8B3988A41184F668004462EE /* Globe.png in Resources */,
-				8B3988A51184F668004462EE /* largeImage.png in Resources */,
-				8B3988A61184F668004462EE /* mater_large.jpg in Resources */,
-				8B3988A71184F668004462EE /* mcqueen_large.jpg in Resources */,
 				8B3988A81184F668004462EE /* overflowImage.png in Resources */,
 				8B3988A91184F668004462EE /* overflowImagePressed.png in Resources */,
 				8B3988AA1184F668004462EE /* pi.png in Resources */,
-				8B3988AB1184F668004462EE /* sally_large.jpg in Resources */,
 				8B3988AC1184F668004462EE /* TabClose_Dirty_Pressed.png in Resources */,
 				8B3988AD1184F668004462EE /* TabClose_Dirty_Rollover.png in Resources */,
 				8B3988AE1184F668004462EE /* TabClose_Dirty.png in Resources */,
 				8B3988AF1184F668004462EE /* TabClose_Front_Pressed.png in Resources */,
 				8B3988B01184F668004462EE /* TabClose_Front_Rollover.png in Resources */,
 				8B3988B11184F668004462EE /* TabClose_Front.png in Resources */,
-				8B3988B21184F668004462EE /* TabControlRep.png in Resources */,
-				8B3988B31184F668004462EE /* TabIcon.png in Resources */,
 				8B3988B41184F668004462EE /* TabNewMetal.png in Resources */,
 				8B3988B51184F668004462EE /* TabNewMetalPressed.png in Resources */,
 				8B3988B61184F668004462EE /* TabNewMetalRollover.png in Resources */,
@@ -554,12 +530,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
 				INFOPLIST_FILE = "PSMTabBarControl-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = PSMTabBarControl;
 				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
-				VALID_ARCHS = "x86_64 ppc970 ppc7400 ppc64 ppc i386";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -571,10 +547,7 @@
 				DEBUG_INFORMATION_FORMAT = stabs;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Developer/Library/Frameworks/,
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_MODEL_TUNING = G5;
@@ -583,12 +556,12 @@
 				INFOPLIST_FILE = "PSMTabBarControl-Info.plist";
 				INSTALL_MODE_FLAG = "go-w,a+rX";
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = PSMTabBarControl;
 				SDKROOT = macosx;
 				SKIP_INSTALL = NO;
-				VALID_ARCHS = "x86_64 ppc970 ppc7400 ppc64 ppc i386";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -600,7 +573,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = All;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = (
@@ -616,7 +589,7 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = All;
 				SDKROOT = macosx;
 				WARNING_CFLAGS = (

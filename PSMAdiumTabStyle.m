@@ -188,7 +188,7 @@
 	}
 
 	NSRect cellFrame = [cell frame];
-	NSImage *icon = [[[cell representedObject] identifier] icon];
+	NSImage *icon = [[[cell representedObject] identifier] valueForKey:@"icon"];
 	NSSize iconSize = [icon size];
 
 	NSRect result;
@@ -585,7 +585,7 @@
 			[self drawObjectCounterInCell:cell withRect:drawingRect];
 			/* closeButtonOrIcon == nil */
 		} else if([cell hasIcon]) {
-			closeButtonOrIcon = [[[cell representedObject] identifier] icon];
+            closeButtonOrIcon = [[[cell representedObject] identifier] valueForKey:@"icon"];
 			drawingRect = iconRect;
 		} else {
 			closeButtonOrIcon = ([cell isEdited] ? _closeDirtyButton : _closeButton);
@@ -595,8 +595,8 @@
 		if([controlView isFlipped]) {
 			drawingRect.origin.y += drawingRect.size.height;
 		}
-
-		[closeButtonOrIcon compositeToPoint:drawingRect.origin operation:NSCompositeSourceOver fraction:1.0];
+        
+        [closeButtonOrIcon drawAtPoint:drawingRect.origin fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1.0];
 
 		// scoot label over
 		switch(orientation) {
@@ -626,13 +626,13 @@
 	} else if([cell hasIcon]) {
 		/* The close button is disabled; the cell has an icon */
 		NSRect iconRect = [self iconRectForTabCell:cell];
-		NSImage *icon = [[[cell representedObject] identifier] icon];
+		NSImage *icon = [[[cell representedObject] identifier] valueForKey:@"icon"];
 
 		if([controlView isFlipped]) {
 			iconRect.origin.y += iconRect.size.height;
 		}
-
-		[icon compositeToPoint:iconRect.origin operation:NSCompositeSourceOver fraction:1.0];
+        
+        [icon drawAtPoint:iconRect.origin fromRect:NSZeroRect operation:NSCompositeSourceOver fraction:1.0];
 
 		// scoot label over by the size of the standard close button
 		switch(orientation) {
