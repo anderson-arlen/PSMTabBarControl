@@ -6,20 +6,6 @@
 	objectVersion = 45;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		53DF6901067E5B8E0090B5B0 /* All */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */;
-			buildPhases = (
-			);
-			dependencies = (
-				53DF6905067E5B930090B5B0 /* PBXTargetDependency */,
-			);
-			name = All;
-			productName = All;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		13F8B89007B43554008AE28D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
 		5565BC1012E50112003AC958 /* PSMUpdatedMetalTabStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5565BC0D12E50103003AC958 /* PSMUpdatedMetalTabStyle.h */; };
@@ -91,16 +77,6 @@
 		8B3988B61184F668004462EE /* TabNewMetalRollover.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E61184F19D004462EE /* TabNewMetalRollover.png */; };
 		8B3988B71184F668004462EE /* Warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3987E71184F19D004462EE /* Warning.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0259C573FE90428111CA0C5A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
-			remoteInfo = PSMTabBarControlFramework;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		13F8B88807B434F6008AE28D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -177,7 +153,6 @@
 		8B39882B1184F40E004462EE /* PSMUnifiedTabStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMUnifiedTabStyle.h; sourceTree = "<group>"; };
 		8B39882C1184F40E004462EE /* PSMUnifiedTabStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMUnifiedTabStyle.m; sourceTree = "<group>"; };
 		8D1AC97B0486D23100FE50C9 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InterfaceBuilderKit.framework; path = /Developer/Library/Frameworks/InterfaceBuilderKit.framework; sourceTree = "<absolute>"; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -249,7 +224,9 @@
 			isa = PBXGroup;
 			children = (
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
-				C0D069550A49DF9100C95564 /* InterfaceBuilderKit.framework */,
+				13F8B88807B434F6008AE28D /* AppKit.framework */,
+				13F8B88907B434F6008AE28D /* CoreData.framework */,
+				13F8B88A07B434F6008AE28D /* Foundation.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -257,9 +234,6 @@
 		13F8B70407B43425008AE28D /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				13F8B88807B434F6008AE28D /* AppKit.framework */,
-				13F8B88907B434F6008AE28D /* CoreData.framework */,
-				13F8B88A07B434F6008AE28D /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -416,7 +390,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				53DF6901067E5B8E0090B5B0 /* All */,
 				53DF68FC067E5B5A0090B5B0 /* PSMTabBarControlFramework */,
 			);
 		};
@@ -492,14 +465,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		53DF6905067E5B930090B5B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 53DF68FC067E5B5A0090B5B0 /* PSMTabBarControlFramework */;
-			targetProxy = 53DF6904067E5B930090B5B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		8D1AC97F0486D23B00FE50C9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -529,6 +494,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "PSMTabBarControl-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = NO;
@@ -553,6 +519,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				INFOPLIST_FILE = "PSMTabBarControl-Info.plist";
 				INSTALL_MODE_FLAG = "go-w,a+rX";
 				INSTALL_PATH = "@loader_path/../Frameworks";
@@ -565,41 +532,6 @@
 			};
 			name = Release;
 		};
-		C056398808A954F8003078D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = All;
-				SDKROOT = macosx;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Debug;
-		};
-		C056398908A954F8003078D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_MODEL_TUNING = G5;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = All;
-				SDKROOT = macosx;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-			};
-			name = Release;
-		};
 		C056398C08A954F8003078D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -609,6 +541,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
@@ -624,6 +557,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INSTALL_PATH = "@rpath";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
@@ -637,15 +571,6 @@
 			buildConfigurations = (
 				C056398008A954F8003078D8 /* Debug */,
 				C056398108A954F8003078D8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C056398708A954F8003078D8 /* Build configuration list for PBXAggregateTarget "All" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C056398808A954F8003078D8 /* Debug */,
-				C056398908A954F8003078D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

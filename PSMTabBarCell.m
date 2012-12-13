@@ -121,7 +121,7 @@
 	_frame = rect;
 
 	//move the status indicator along with the rest of the cell
-	if(![[self indicator] isHidden] && ![_cntrlView isTabBarHidden]) {
+	if(![[self indicator] isHidden] && !_cntrlView.isHidden) {
 		[[self indicator] setFrame:[self indicatorRectForFrame:rect]];
 	}
 }

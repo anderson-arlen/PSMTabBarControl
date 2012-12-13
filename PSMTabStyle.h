@@ -7,7 +7,11 @@
 //
 
 /*
-   Protocol to be observed by all style delegate objects.  These objects handle the drawing responsibilities for PSMTabBarCell; once the control has been assigned a style, the background and cells draw consistent with that style.  Design pattern and implementation by David Smith, Seth Willits, and Chris Forsythe, all touch up and errors by John P. :-)
+ Protocol to be observed by all style delegate objects.
+ These objects handle the drawing responsibilities for PSMTabBarCell;
+ once the control has been assigned a style, the background and cells
+ draw consistent with that style.  Design pattern and implementation by David Smith,
+ Seth Willits, and Chris Forsythe, all touch up and errors by John P. :-)
  */
 
 #import "PSMTabBarCell.h"
