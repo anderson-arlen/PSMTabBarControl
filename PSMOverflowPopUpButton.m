@@ -45,10 +45,6 @@
 
 	NSPoint drawPoint = NSMakePoint(NSMidX(bounds) - (imageSize.width * 0.5f), NSMidY(bounds) - (imageSize.height * 0.5f));
 
-	if([self isFlipped]) {
-		drawPoint.y += imageSize.height;
-	}
-
     [image drawAtPoint:drawPoint
               fromRect:NSZeroRect
              operation:NSCompositeSourceOver
