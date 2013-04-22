@@ -61,12 +61,37 @@ enum {
 @protocol PSMTabBarControlDelegate, PSMTabStyle;
 
 @interface PSMTabBarControl : NSControl <NSTabViewDelegate> {
+    IBOutlet id<PSMTabBarControlDelegate> _delegate;
+    IBOutlet NSTabView *_tabView;
+    IBOutlet id _partnerView;
 												
 	// control basics
 	NSMutableArray							*_cells;								// the cells that draw the tabs
 	PSMOverflowPopUpButton					*_overflowPopUpButton;				// for too many tabs
 	PSMRolloverButton						*_addTabButton;
 	PSMTabBarController						*_controller;
+    
+    // control configuration
+    id <PSMTabStyle> _style;
+    PSMTabBarOrientation _orientation;
+    BOOL _canCloseOnlyTab;
+    BOOL _disableTabClose;
+    BOOL _hideForSingleTab;
+    BOOL _showAddTabButton;
+    NSInteger _cellMinWidth;
+    NSInteger _cellMaxWidth;
+    NSInteger _cellOptimumWidth;
+    BOOL _sizeCellsToFit;
+    BOOL _useOverflowMenu;
+    BOOL _allowsBackgroundTabClosing;
+    BOOL _allowsResizing;
+    BOOL _selectsTabsOnMouseDown;
+    BOOL _automaticallyAnimates;
+    BOOL _alwaysShowActiveTab;
+    BOOL _allowsScrubbing;
+    
+    // control state
+    BOOL _isHidden;
 
 	// Spring-loading.
 	NSTimer									*_springTimer;

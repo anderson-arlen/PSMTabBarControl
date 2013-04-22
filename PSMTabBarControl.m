@@ -69,6 +69,29 @@
 
 @implementation PSMTabBarControl
 
+@synthesize delegate = _delegate;
+@synthesize tabView = _tabView;
+@synthesize partnerView = _partnerView;
+@synthesize style = _style;
+@synthesize orientation = _orientation;
+@synthesize canCloseOnlyTab = _canCloseOnlyTab;
+@synthesize disableTabClose = _disableTabClose;
+@synthesize hideForSingleTab = _hideForSingleTab;
+@synthesize showAddTabButton = _showAddTabButton;
+@synthesize cellMinWidth = _cellMinWidth;
+@synthesize cellMaxWidth = _cellMaxWidth;
+@synthesize cellOptimumWidth = _cellOptimumWidth;
+@synthesize sizeCellsToFit = _sizeCellsToFit;
+@synthesize useOverflowMenu = _useOverflowMenu;
+@synthesize allowsBackgroundTabClosing = _allowsBackgroundTabClosing;
+@synthesize allowsResizing = _allowsResizing;
+@synthesize selectsTabsOnMouseDown = _selectsTabsOnMouseDown;
+@synthesize automaticallyAnimates = _automaticallyAnimates;
+@synthesize alwaysShowActiveTab = _alwaysShowActiveTab;
+@synthesize allowsScrubbing = _allowsScrubbing;
+@synthesize tearOffStyle = _tearOffStyle;
+@synthesize isHidden = _isHidden;
+
 #pragma mark -
 #pragma mark Characteristics
 + (NSBundle *)bundle;
